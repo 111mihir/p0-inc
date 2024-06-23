@@ -1,0 +1,25 @@
+{
+  "name": "p0-inc",
+  "version": "1.0.0",
+  "description": "Welcome to the Harbor take home project. We hope this is a good opportunity for you to showcase your skills.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.8",
+    "prettier": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
