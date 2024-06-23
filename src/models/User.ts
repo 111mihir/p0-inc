@@ -83,6 +83,7 @@ export {
   MeetingSlot,
   User,
   UserConfiguration,
+  configurationByUserId,
   getUser,
   getUserConfiguration,
   users,
