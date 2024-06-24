@@ -37,4 +37,9 @@ router.get("/debug", (_, res: Response) => {
   });
 });
 
+// health check
+router.get("/healthz", (_, res: Response) => {
+  res.send("OK");
+});
+
 export default router;
